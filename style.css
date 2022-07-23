@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+  
+}
+h1{
+  color: #17a2b8;
+  font-size: 2.5rem;
+}
+.content{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+input{
+    background-color: transparent!important;
+    border: 1px solid white;
+    color: #fff !important;
+}
+
+input::placeholder, textarea::placeholder {
+    color: rgb(182, 182, 182) !important;
+  }
+  .links-container a{
+color: #fff;
+text-decoration: none;
+  }
+  .links-container a:hover{
+    text-decoration:underline;
+  }
+  .sign-btn:hover{
+      color: #fff;
+  }
+  .success{
+    color: #28a745 !important;
+  }
+
+
+  .name-show{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  }
+  .icon-container{
+
+
+width: 10%;
+
+  }
+  .nav-btn{
+    right: 0;
+  }
+  .collapse-btn{
+    display: block;
+  }
+.nav-link{
+  display: block;
+}
